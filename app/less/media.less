@@ -1,0 +1,257 @@
+
+@media(min-width: 576px){
+	.menu_icon{
+		display: none;
+	}
+}
+@media(max-width: 705px){
+	.menu{
+		left: 15px;
+	}
+}
+@media(max-width: 991px){
+	
+	.buttons_section .buttons_list{
+		flex-wrap: wrap;
+	}
+	.buttons_section .buttons_list .button_item{
+		width: calc(~"50% - 16px")!important;
+		margin-right: 16px;
+		margin-bottom: 16px;
+	}
+	.buttons_section .buttons_list .button_item:nth-child(2){
+		margin-right: 0;
+
+	}
+	
+	.info_block{
+		padding: 20px;
+	}
+	.buttons_section .about_us_block{
+		margin-top: 32px;
+	}
+	.info_block .line{
+		width: 12%;
+	}
+	.padding_left_md_0{
+		padding-left: 0;
+	}
+	.curriculum_section .section_title{
+		padding-bottom: 0;
+	}
+	.news_section .news_item{
+		flex-direction: column;
+		.img_block, .news_desc{
+			width: 100%;
+		}
+		.news_desc{
+			padding-top: 16px;
+		}
+	}
+	.flickity-page-dots{
+		bottom: -45px;
+	}
+	.news_section .news_item .img_block{
+		padding-right: 0;
+	}
+	.news_section .news_item .news_desc{
+		padding-left: 0;
+	}
+	.footer_buttons_section,.contacts_section,.video_section{
+		padding-top: 64px;
+	}
+	.buttons_section .about_us_block h5{
+		margin-bottom: 32px;
+	}
+}
+@media(max-width: 767px){
+	.modal .close img{
+		width: 24px;
+		height: 24px;
+	}
+	.modal .modal_container .modal_content{
+		width: 70%;
+	}
+	.info_block{
+		padding: 20px 10px;
+	}
+	.info_block .line:after{
+		width: 12px;
+		height: 12px;
+		top: -4px;
+	}
+	footer{
+		.row{
+			display: flex;
+			justify-content: center;
+		}
+		.social_icons{
+			margin-right: auto;
+			margin-top: 15px;
+		}
+		p{
+			text-align: center;
+		}
+		
+	}
+	.curriculum_section .curriculum_item{
+		border: none;
+		border-bottom: 4px solid #fff;
+	}
+	.main_content{
+		width: 70%;
+	}
+	.info_block h5{
+		font-size: 11px;
+	}
+}
+@media(max-width: 640px){
+
+	.main_content{
+		width: 65%;
+	}
+	.modal .modal_container .modal_content h2{
+		font-size: 32px;
+	}
+	.modal .modal_container .modal_content form textarea{
+		height: 100px;
+	}
+	.modal .modal_container .modal_content form input{
+		height: 32px;
+	}
+}
+@media(max-width: 576px){
+	.video_player video{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.next {
+	    right: 10px;
+	}
+	.prev{
+		left: 10px;
+	}
+	.modal .curriculum_desc{
+		height: 80%;
+	}
+	.modal .curriculum_desc img{
+		height: 180px;
+	}
+	.modal .modal_container .modal_content{
+		width: 95%;
+	}
+	.modal .curriculum_desc p{
+		font-size: 12px;
+	}
+	.modal .close{
+		top: 20px;
+		right: 20px;
+	}
+	.modal .modal_container .modal_content h2{
+		font-size: 24px;
+	}
+	.logo_xs{
+		display: block;
+	}
+	.menu .menu_list,.menu .social_icons{
+		margin-top: 32px;
+	}
+	.menu .menu_list a{
+		font-size: 16px;
+	}
+	
+	body{
+		padding-top: 0;
+	}
+	.info_block .since_text{
+		display: flex;
+		flex-direction: column;
+	}
+	.info_block h5{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	.info_block .line:after{
+		top: unset;
+		bottom: 0;
+		right: -3px;
+	}
+	.info_block .line.left_circle:after{
+		left: -3px;
+		top: 0;
+	}
+	.info_block .line{
+		height: 60px;
+		width: 5px;
+	}
+	.news_section .flickity-viewport{
+		height: 800px!important;
+	}
+	.info_block .line:after{
+		height: 12px;
+		width: 12px;
+	}
+	
+	.info_block{
+		display: block;
+		width: calc(~"100% + 30px");
+		margin-right: -15px;
+		margin-left: -15px;
+		padding: 15px;
+	}
+	.footer_buttons_section, .contacts_section, .video_section{
+		padding-top: 32px;
+	}
+	.features_section .features_item p{
+		height: auto;
+	}
+	.news_section .news_item .img_block{
+		height: 150px;
+	}
+	.video_testimonials_section .video_item{
+		padding: 0 15px;
+	}
+	.buttons_section{
+		padding-top: 60px;
+		.buttons_list{
+			display: flex;
+			justify-content: center;
+		}
+	}
+	.main_content{
+		width: 100%;
+	}
+	.info_block{
+		justify-content: center;
+	}
+	.menu{
+		background: #fff;
+		z-index: 9999;
+		transition: 0.3s;
+		left: -200px;
+		width: 200px;
+		height: 100%;
+		padding: 0;
+	}
+	.menu .fixed_wrapper{
+		border-right: 1px solid #898989;
+		padding-bottom: 0;
+		padding: 20px;
+		background: #fff;
+	}
+}
+@media(max-width: 375px){
+	.buttons_section .buttons_list .button_item a{
+		font-size: 14px;
+	}
+	.news_section .news_item .news_desc p{
+		font-size: 13px;
+	}
+	h5.section_title{
+		font-size: 16px;
+		font-family: GothamPro_Bold;
+	}
+}
